@@ -197,12 +197,12 @@ body::after {
 }
 
 .best-work {
-    margin-top: 5%;
+    margin: 5% 0;
 }
 
 @media (min-width: 576px) { 
 .best-work {
-    margin-top: 15%;
+    margin: 10% 0;
 }}
 
 .best-work div:nth-child(2) {
