@@ -200,7 +200,7 @@ body::after {
     margin-top: 150px;
 }
 
-.best-work .col-md-6:nth-child(2) {
+.best-work div:nth-child(2) {
     margin: -50px !important;
     z-index: 2;
 }
