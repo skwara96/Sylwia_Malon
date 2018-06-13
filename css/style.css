@@ -201,6 +201,6 @@ body::after {
 }
 
 .best-work div:nth-child(2) {
-    margin: -50px !important;
+    margin: -6% -10% !important;
     z-index: 2;
 }
