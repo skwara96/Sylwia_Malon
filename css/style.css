@@ -200,6 +200,11 @@ body::after {
     margin-top: 15%;
 }
 
+@media (min-width: 576px) { 
+.best-work {
+    margin-top: 5%;
+}}
+
 .best-work div:nth-child(2) {
     margin: -6% -10% !important;
     z-index: 2;
