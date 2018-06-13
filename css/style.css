@@ -1,6 +1,21 @@
 /* All */
 body {
     font-family: 'Raleway', sans-serif !important;
+    
+}
+
+body::after {
+  content: "";
+  background: url('../img/bg.png');
+    background-size: cover;
+    background-position: center -350px;
+  opacity: 0.05;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 /*  Navbar */
