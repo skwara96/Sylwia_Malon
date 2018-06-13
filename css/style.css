@@ -213,3 +213,10 @@ body::after {
     margin: -6% -10% !important;
     z-index: 2;
 }
+
+/*About Me*/
+.aboutme h2 {
+    font-family: 'Sriracha', cursive;
+    color:#ee473e;
+    font-size: 3.5em;
+}
