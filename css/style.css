@@ -192,7 +192,7 @@ body::after {
 
 /* Header */
 
-header .container {
+.section-hr {
     border-bottom: 2px solid #ee473e;
 }
 .logo {
