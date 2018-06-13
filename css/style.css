@@ -173,3 +173,9 @@ body {
   top: 21px;
   left: 8px;
 }
+
+/* Header */
+.logo {
+    padding: 10px 50px;
+    border: 5px solid #ee473e;
+}
