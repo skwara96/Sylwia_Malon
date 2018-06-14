@@ -22,7 +22,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-light d-flex justify-content-between z-depth-0 mb-5
+    <nav class="navbar navbar-light d-flex justify-content-between  sticky-top scrolling-navbar z-depth-0 mb-5
 
  ">
         <div class="container  mt-2">
@@ -40,15 +40,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent22">
 
                 <!-- Links -->
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto text-center pr-2 menu">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Strona Główna <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#aboutme">O mnie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#gallery">Ilustracje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -62,7 +65,7 @@
 
     <!--Header-->
     <header>
-        <section class="container section-hr mb-5">
+        <section id="home" class="container section-hr mb-5">
             <img src="img/sylwiamalon.svg" class="img-fluid mx-auto d-block logo mb-5" alt="Sylwia Malon">
             <h3 class="text-center text-black-50 mb-5">Zajmuje się malowaniem ilustracji do książek</h3>
 
@@ -105,7 +108,7 @@
     </header>
     <!--/.Header-->
     <!--About Me-->
-    <section class="container section-hr mb-5 aboutme ">
+    <section id="aboutme" class="container section-hr mb-5 aboutme ">
         <div class="row d-flex align-items-center">
             <div class="col-md-4 col-6 offset-3  offset-md-1 mb-5">
                 <img src="img/omnie.jpg" class="img-fluid z-depth-1-half mx-auto d-block" alt="Responsive image"></div>
@@ -123,7 +126,7 @@
     <!--/About Me-->
 
     <!--Gallery-->
-    <section class="gallery section-hr mb-5 container">
+    <section id="gallery" class="gallery section-hr mb-5 container">
         <h3 class="mb-3 text-uppercase">Moje prace</h3>
         <ul class="nav md-pills pills-secondary">
             <li class="nav-item">
@@ -319,15 +322,15 @@
     </section>
     <!--/Gallery-->
     <!--Contact-->
-    <section class="contact section-hr mb-5 container">
+    <section id="contact" class="contact  container">
         <h3 class="mb-3 text-uppercase">Skontaktuj się ze mną</h3>
         <!--Section description-->
         <p class="section-description">Masz jakieś pytanie? Nie zwlekaj i napisz!</p>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center">
 
             <!--Grid column-->
-            <div class="col-md-8 col-xl-9 mb-5">
+            <div class="col-md-8 col-xl-7 mb-5">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                     <!--Grid row-->
@@ -390,17 +393,17 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-md-4 col-xl-3  mb-5">
-                <ul class="contact-icons">
-                    <li><i class="fa fa-map-marker fa-2x"></i>
-                        <p>Warszawa, Kolorowa 51/2</p>
+            <div class="col-md-4 col-xl-3  mb-5 text-center ">
+                <ul class="contact-icons ">
+                    <li><i class="fa fa-map-marker fa-2x mb-2"></i>
+                        <p class="mb-4">Warszawa, Kolorowa 51/2</p>
                     </li>
 
-                    <li><i class="fa fa-phone fa-2x"></i>
-                        <p>+ 01 234 567 89</p>
+                    <li><i class="fa fa-phone fa-2x mb-2"></i>
+                        <p class="mb-4">+ 01 234 567 89</p>
                     </li>
 
-                    <li><i class="fa fa-envelope fa-2x"></i>
+                    <li><i class="fa fa-envelope fa-2x  mb-2"></i>
                         <p>sylwia@malon.com</p>
                     </li>
                 </ul>
@@ -410,6 +413,61 @@
         </div>
     </section>
     <!--/Contact-->
+    <!-- Footer -->
+    <footer class="page-footer font-small red darken-3 mt-4">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+            <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+            <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+            <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Sylwia Malon</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>

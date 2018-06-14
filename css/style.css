@@ -22,6 +22,17 @@ body::after {
 
 /*  Navbar */
 
+.top-nav-collapse {
+    background: white;
+    padding: 0 !important;
+}
+
+.menu .active a {
+    background: none !important;
+    color: #ee473e !important;
+    font-weight: 700;
+}
+
 /* Icon 1 */
 
 .animated-icon1,
@@ -244,4 +255,11 @@ body::after {
 
 .md-pills .active {
     color: #ee473e !important;
+}
+
+/* Contact */
+
+.contact-icons {
+    list-style: none;
+    padding-left: 0;
 }
