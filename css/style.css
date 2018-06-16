@@ -5,6 +5,10 @@ body {
 
 }
 
+.wow {
+    visibility: hidden;
+}
+
 body::after {
     content: "";
     background: url('../img/bg.jpg') no-repeat;
